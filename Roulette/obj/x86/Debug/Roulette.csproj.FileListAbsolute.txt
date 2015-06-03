@@ -1,0 +1,9 @@
+F:\OnQ General\Tools\Roulette\Roulette\bin\Debug\Roulette.exe
+F:\OnQ General\Tools\Roulette\Roulette\bin\Debug\Roulette.pdb
+F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.Main.resources
+F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.Properties.Resources.resources
+F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.csproj.GenerateResource.Cache
+F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.exe
+F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.pdb
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.exe
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.pdb
