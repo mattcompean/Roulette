@@ -7,3 +7,9 @@ F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.exe
 F:\OnQ General\Tools\Roulette\Roulette\obj\x86\Debug\Roulette.pdb
 C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.exe
 C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.pdb
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\bin\Debug\Roulette.exe
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\bin\Debug\Roulette.pdb
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.csprojResolveAssemblyReference.cache
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.Main.resources
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.Properties.Resources.resources
+C:\Users\Matt\My Projects\Git\Roulette\Roulette\obj\x86\Debug\Roulette.csproj.GenerateResource.Cache

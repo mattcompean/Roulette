@@ -8,7 +8,6 @@ namespace Roulette
 {
     public static class Match
     {
-        //http//stackoverflow.com/questions/1293058/round-robin-tournament-algorithm-in-c-sharp
 
         public static void PlayRound(RichTextBox output, List<Seed> row1, List<Seed> row2)
         {
