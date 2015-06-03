@@ -34,7 +34,16 @@ namespace Roulette
 
             for (int i = 0; i < seedCount; i++)
             {
-                Seed s = new Seed(i + 1, names[i]);
+                Seed s;
+                if(i >= names.Count)
+                {
+                    s = new Seed(i + 1, "Player " + (i + 1));
+                }
+                else
+                {
+                    s = new Seed(i + 1, names[i]);
+                }
+                
                 seeds.Add(s);
             }
 
@@ -43,7 +52,7 @@ namespace Roulette
 
         private void ShuffleSeeds()
         {
-            RNGCryptoServiceProvider provider = new RNGCryptoServiceProvider();
+            Random rng = new Random();
 
             int s = seeds.Count;
 
@@ -51,12 +60,8 @@ namespace Roulette
 
             while (s > 1)
             {
-                byte[] box = new byte[1];
-                do provider.GetBytes(box);
-                while (!(box[0] < s * (Byte.MaxValue / s)));
-                int i = (box[0] % s);
                 s--;
-
+                int i = rng.Next(s + 1);
                 Seed value = seeds[i];
                 seeds[i] = seeds[s];
                 seeds[s] = value;

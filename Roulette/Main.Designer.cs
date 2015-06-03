@@ -41,6 +41,11 @@
             // numSeeds
             // 
             this.numSeeds.Location = new System.Drawing.Point(12, 31);
+            this.numSeeds.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.numSeeds.Minimum = new decimal(new int[] {
             3,
             0,

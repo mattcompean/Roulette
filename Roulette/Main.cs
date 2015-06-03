@@ -46,19 +46,28 @@ namespace Roulette
             {
                 if (File.Exists(ofd.FileName))
                 {
-                    TextReader tr = new StreamReader(ofd.FileName);
-                    string line = tr.ReadLine();
-                    string[] _roster = line.Split(',');
-                    roster = new List<string>(_roster);
-
-                    for (int i = 0; i < roster.Count; i++)
+                    try
                     {
-                        roster[i] = roster[i].Trim();
+                        TextReader tr = new StreamReader(ofd.FileName);
+                        string line = tr.ReadLine();
+                        string[] _roster = line.Split(',');
+                        roster = new List<string>(_roster);
+
+                        for (int i = 0; i < roster.Count; i++)
+                        {
+                            roster[i] = roster[i].Trim();
+                        }
+
+                        if (roster.Count > (int)numSeeds.Value)
+                        {
+                            numSeeds.Value = roster.Count;
+                        }
+
+                        tr.Close();
                     }
-
-                    if (roster.Count > (int)numSeeds.Value)
+                    catch (Exception ex)
                     {
-                        numSeeds.Value = roster.Count;
+                        Console.WriteLine("Exception: " + ex.Message + "\n" + ex.StackTrace);
                     }
                 }
             }
